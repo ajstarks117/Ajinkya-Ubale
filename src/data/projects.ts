@@ -119,7 +119,7 @@ export const projects: Project[] = [
       'Integrating LiDAR point-cloud coordinate alignment with Mapbox tiles required precise geographical projection transformations.',
     learnings:
       'Deepened my expertise in AI object detection pipelines, geographical mapping systems, and large spatial dataset rendering.',
-    github: 'https://github.com/ajstarks117',
+    github: 'https://github.com/ajstarks117/Ecoscope',
     live: '#',
     image: '/images/projects/ecoscope.png',
     images: [],
@@ -179,9 +179,9 @@ export const projects: Project[] = [
       'Designing custom UI menus and viewport scales inside Godot that behave responsively across varying screen resolutions.',
     learnings:
       'Mastered GDScript architecture patterns, component-based game design, and student-focused UI/UX workflows.',
-    github: '#',
+    github: 'https://github.com/ajstarks117/Pariksha-Mitra',
     live: '#',
-    image: '/images/projects/parikshamitra.jpg',
+    image: '/images/projects/parikshamitra.png',
     images: [],
   },
 ];
