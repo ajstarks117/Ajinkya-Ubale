@@ -14,16 +14,16 @@ export function Hero() {
 
           <h1 className={`hero-heading reveal ${inView ? 'visible' : ''} reveal-delay-1`} style={{ fontSize: 'var(--text-6xl)', fontWeight: 800, lineHeight: 1.1, marginBottom: '1.5rem' }}>
             <span className="hero-name" style={{ display: 'block' }}>
-              Ajinkya <span style={{ color: 'var(--accent)' }}>Ubale.</span>
+              {profile.firstName} <span style={{ color: 'var(--accent)' }}>{profile.lastName}.</span>
             </span>
           </h1>
 
           <h2 className={`hero-subtitle reveal ${inView ? 'visible' : ''} reveal-delay-1`} style={{ fontSize: 'var(--text-2xl)', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '1.5rem' }}>
-            Computer Engineer & Developer
+            {profile.title}
           </h2>
 
           <p className={`hero-desc reveal ${inView ? 'visible' : ''} reveal-delay-2`} style={{ fontSize: 'var(--text-base)', color: 'var(--text-secondary)', maxWidth: '480px', marginBottom: '2.5rem', lineHeight: 1.6 }}>
-            I build software, intelligent systems and interactive experiences that solve real world problems.
+            {profile.headline}
           </p>
 
           <div className={`hero-cta reveal ${inView ? 'visible' : ''} reveal-delay-2`} style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
