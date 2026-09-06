@@ -1407,6 +1407,13 @@ ul, ol {
   flex-wrap: wrap;
 }
 
+.publication-journal-group {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  flex-wrap: wrap;
+}
+
 .publication-journal {
   font-size: var(--text-xs);
   font-weight: 600;
@@ -1414,6 +1421,22 @@ ul, ol {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   line-height: 1.4;
+}
+
+.scopus-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: #34d399;
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(52, 211, 153, 0.3);
+  padding: 0.15em 0.55em;
+  border-radius: var(--radius-full);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.1);
 }
 
 .publication-date {
@@ -1476,6 +1499,8 @@ ul, ol {
 }
 
 .publication-tag {
+  display: inline-flex;
+  align-items: center;
   font-size: 0.6875rem;
   font-weight: 500;
   color: var(--accent);
@@ -1484,6 +1509,13 @@ ul, ol {
   border-radius: var(--radius-full);
   letter-spacing: 0.02em;
   white-space: nowrap;
+}
+
+.publication-tag.scopus-tag {
+  color: #34d399;
+  background: rgba(16, 185, 129, 0.15);
+  border: 1px solid rgba(52, 211, 153, 0.35);
+  font-weight: 600;
 }
 
 .publication-link {
