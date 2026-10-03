@@ -30,6 +30,6 @@ export const profile: Profile = {
   email: 'vp2860083@gmail.com',
   github: 'https://github.com/ajstarks117',
   linkedin: 'https://www.linkedin.com/in/ajinkya-ubale-2a21a932a/',
-  resumeUrl: 'https://drive.google.com/file/d/1XUuQ_0CoiCD3L8-6fmFPlEa2sl3d5UDA/view?usp=sharing',
+  resumeUrl: 'https://drive.google.com/file/d/185hfZaWUBVIzmDrHL7Ldq0FjbmpozY_p/view?usp=sharing',
   logo: 'AJ.',
 };
