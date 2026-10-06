@@ -27,7 +27,7 @@ export const profile: Profile = {
   ],
   location: 'Pune, India',
   availability: 'Available for opportunities',
-  email: 'vp2860083@gmail.com',
+  email: 'ajinkyaubale117@gmail.com',
   github: 'https://github.com/ajstarks117',
   linkedin: 'https://www.linkedin.com/in/ajinkya-ubale-2a21a932a/',
   resumeUrl: 'https://drive.google.com/file/d/185hfZaWUBVIzmDrHL7Ldq0FjbmpozY_p/view?usp=sharing',
